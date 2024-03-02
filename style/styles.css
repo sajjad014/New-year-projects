@@ -1,0 +1,205 @@
+         @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+         * {
+             font-family: "Merriweather", serif;
+         }
+         
+         .container {
+             position: relative;
+             text-align: center;
+             width: 1320px;
+         }
+         
+         .image {
+             width: 75%;
+             height: auto;
+         }
+         
+         .banner-text {
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             font-size: 24px;
+             font-family: Arial, sans-serif;
+         }
+         
+         .category-item h1 {
+             color: rgb(255, 0, 0);
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             font-size: 88px;
+             font-weight: 700;
+         }
+         
+         .category-item h5 {
+             font-size: 24px;
+             font-weight: 500;
+             color: rgb(255, 0, 0);
+         }
+         
+         .category-item h4 {
+             font-size: 48px;
+             font-weight: 700;
+             line-height: 58px;
+         }
+         
+         button {
+             border-radius: 8px;
+             background: rgb(229, 84, 115);
+             padding: 15px 28px;
+             color: white;
+             border: none;
+             margin-top: 10px;
+             cursor: pointer;
+             transition: all 1s;
+         }
+         
+         button:hover {
+             background: rgb(35, 1, 8);
+         }
+         
+         .midnight-text {
+             color: white;
+         }
+         
+         .place-item {
+             border-radius: 16px;
+             background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+             height: 350px;
+             text-align: center;
+             align-items: center;
+             justify-items: center;
+         }
+         
+         .place-item h3 {
+             margin-top: 50px;
+         }
+         
+         .place-text {
+             color: rgb(255, 0, 0);
+         }
+         
+         .place-all-item {
+             align-items: center;
+         }
+         
+         .best-offer {
+             display: flex;
+         }
+         
+         .best-offer-item h5 {
+             color: rgb(255, 0, 0);
+         }
+         
+         .best-offer-item h3 {
+             font-size: 30px;
+             font-weight: 900;
+         }
+         
+         .img-box {
+             box-sizing: border-box;
+         }
+         
+         .year-item h1 {
+             color: rgb(255, 0, 0);
+         }
+         
+         section {
+             margin-bottom: 100px;
+         }
+         
+         .holidays {
+             font-weight: 800px;
+             font-size: 50px;
+             color: rgb(255, 0, 0);
+         }
+         
+         .img-section {
+             display: flex;
+         }
+         
+         .dis-img {
+             display: flex;
+         }
+         
+         .shoping {
+             width: 429px;
+             height: 433px;
+         }
+         
+         .img-box {
+             width: 429px;
+             height: 433px;
+         }
+         
+         .Portfolio-item h1 {
+             color: rgb(7, 2, 17);
+             font-family: Merriweather;
+             font-size: 48px;
+             font-weight: 900;
+         }
+         
+         .Portfolio-item h5 {
+             color: rgb(255, 0, 0);
+             font-family: Inter;
+             font-size: 24px;
+             font-weight: 500;
+         }
+         
+         .Portfolio-img {
+             gap: 20px;
+         }
+         
+         .input-field input {
+             border-radius: 8px;
+             padding: 15px 28px;
+             border: none;
+             margin-top: 10px;
+         }
+         
+         .input-field {
+             border-radius: 50px;
+             background: rgb(255, 255, 255);
+         }
+         
+         .subscrive {
+             border-radius: 0px 50px 50px 0px;
+             background: rgb(255, 0, 0);
+         }
+         
+         .first {
+             display: flex;
+         }
+         
+         .second {
+             display: flex;
+         }
+         
+         .contract-item {
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .contract-item {
+             margin: 10px 10px 0 0;
+         }
+         
+         footer {
+             background: rgb(7, 2, 17);
+             color: #f2f2f2;
+             padding: 20px;
+         }
+         
+         .footer-img {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+         
+         .footer-img img {
+             margin: 0 10px;
+         }
+         
+         .right {
+             display: flex;
+             justify-content: space-between;
+         }
